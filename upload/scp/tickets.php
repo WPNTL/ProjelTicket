@@ -143,7 +143,7 @@ if (!$ticket) {
     }
 }
 
-// Configure form for file uploads
+// Configure form for file upload
 $response_form = new SimpleForm(array(
     'attachments' => new FileUploadField(array('id'=>'attach',
         'name'=>'attach:response',
